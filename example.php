@@ -7,13 +7,13 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	$('#teste').click(function(){
-			fbfm($('input[name=file]'),'index.php');
+			fbfm($('input[name=file]'));
 		});
 });
 </script>
 </head>
 <body>
 <h1>jbFileManager</h1>
-<input type="text" name="file"><input type="button" value="teste" id="teste">
+<input type="text" name="file"><input type="button" value="browser files" id="test">
 </body>
 </html>
